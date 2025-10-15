@@ -1,0 +1,36 @@
+"""Smart Parking System Configuration"""
+
+# Network
+WIFI_SSID = "Robotic WIFI"
+WIFI_PASSWORD = "rbtWIFI@2025"
+STATIC_IP = None  # Set to "192.168.1.100" for static IP, None for DHCP
+SUBNET_MASK = "255.255.255.0"
+GATEWAY = "192.168.1.1"
+DNS_SERVER = "8.8.8.8"
+
+# Telegram (@BotFather for token, @userinfobot for chat ID)
+TELEGRAM_BOT_TOKEN = 'YOUR_BOT_TOKEN'
+TELEGRAM_CHAT_ID = 'YOUR_CHAT_ID'
+
+# Hardware Pins
+ULTRASONIC_TRIG = 27
+ULTRASONIC_ECHO = 26
+SERVO_GATE = 16
+IR_SENSORS = [32, 35, 34]  # S1, S2, S3
+LCD_I2C_ADDRESS = 0x27
+LCD_SDA_PIN = 21
+LCD_SCL_PIN = 22
+
+# Detection
+CAR_DETECTION_DISTANCE = 20  # cm
+PRICING_PER_MINUTE = 0.5  # dollars
+
+# Timing (milliseconds)
+DEBOUNCE_TIME = 1000
+LEAVE_GRACE_TIME = 1000
+GATE_TIMEOUT = 5000
+ULTRASONIC_COOLDOWN = 3000
+
+# Web Server
+WEB_SERVER_PORT = 80
+AUTO_REFRESH_INTERVAL = 5  # seconds
