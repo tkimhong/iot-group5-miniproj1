@@ -253,8 +253,11 @@ exec(open('main.py').read())
 # Project Information
 
 **Course**: ICT 360 - Introduction to IoT
+
 **Project Type**: Mini Project 1 - Smart Parking System
+
 **Platform**: ESP32 with MicroPython
+
 **Architecture**: Single-file functional design with modular functions
 
 ## File Structure
