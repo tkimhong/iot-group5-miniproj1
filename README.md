@@ -115,8 +115,7 @@ TELEGRAM_CHAT_ID = "YOUR_CHAT_ID"
 
 **Demo Video:**
 
-# !!!TODO!!!
-[![Demo video](https://img.youtube.com/vi/video_id/0.jpg)](https://www.youtube.com/watch?v=video_id)
+[![Demo video](https://img.youtube.com/vi/GWhinETLWaY/0.jpg)](https://www.youtube.com/watch?v=GWhinETLWaY)
 
 _The video demonstrates:_
 
@@ -211,17 +210,8 @@ git clone https://github.com/tkimhong/iot-group5-miniproj1.git
 
 **Method 1 - Auto-start** (recommended):
 ```python
-# Rename main.py to boot.py on ESP32 for automatic startup
+# Upload main.py file name on ESP32 for automatic startup
 ```
-
-**Method 2 - Manual run**:
-```python
-import main
-# or
-exec(open('main.py').read())
-```
-
----
 
 # Troubleshooting
 
